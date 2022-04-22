@@ -3,7 +3,7 @@ from sudoku.solvers import BasicSolver
 
 def main():
     # Load sudoku game
-    sudoku = Sudoku.from_csv('tmp.csv')
+    sudoku = Sudoku.from_csv('./examples/puzzle.csv')
     sudoku.show()
 
     # Solve game
